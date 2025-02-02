@@ -52,7 +52,7 @@ let quotes = [
   // Create Add Quote Form
   function createAddQuoteForm() {
     const formContainer = document.getElementById('addQuoteFormContainer');
-  
+    ["Quotes synced with server!"]
     // Create the form elements
     const inputText = document.createElement('input');
     inputText.id = 'newQuoteText';
